@@ -1,19 +1,21 @@
 ---
-layout: basic
-title: The Rust Programming Language
+layout: de-DE/basic
+title: Die Programmiersprache Rust
 ---
 
     <div class="row install-row">
       <div class="col-md-8">
         <p class="pitch">
-          <b>Rust</b> ist eine System Programmier Sprache,
+          <b>Rust</b>, die systemnahe Programmiersprache,
           die super schnell läuft,
-          Segfaults verhinder,
+          Segfaults verhindert,
           und Threadsicherheit garantiert.
           <br/>
-          Zeig her!
-          <a href="https://doc.rust-lang.org/book/README.html">(english)</a>
-          <a href="https://rust-lang-de.github.io/rustbook-de/">(deutsch)</a>
+          <b><a href="friends.html">Wer benutzt Rust?</a></b>
+          <!--
+          <a href="https://doc.rust-lang.org/book/README.html">(eng)</a>
+          <a href="https://rust-lang-de.github.io/rustbook-de/">(de)</a>
+          -->
         </p>
       </div>
       <div class="col-md-4 install-box">
@@ -35,19 +37,19 @@ title: The Rust Programming Language
       <h2>Eigenschaften</h2>
       <ul class="laundry-list">
         <li>kostenfreie Abstraktionen</li>
-        <li>Move Semantik</li>
+        <li>Move-Semantik</li>
         <li>garantierte Speichersicherheit</li>
         <li>Threads ohne Datenzugriffsverletzungen</li>
         <li>Trait-basierte Generics</li>
         <li>Pattern-Matching</li>
         <li>Type inference</li>
-        <li>Minimale runtime</li>
+        <li>Minimale Runtime</li>
         <li>Effiziente C Bindings</li>
       </ul>
       </div>
       <div class="col-md-8">
         <div id="active-code">
-          <button type="button" class="btn btn-primary btn-sm" id="run-code">Run</button>
+          <button type="button" class="btn btn-primary btn-sm" id="run-code">Ausführen</button>
           <div id="editor">{% include example.rs %}</div>
           <div id="result">
             <a id="playlink"><i class="icon-link-ext"></i></a>

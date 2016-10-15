@@ -5,18 +5,17 @@ title: Contributing to Rust &middot; The Rust Programming Language
 
 # Contributing to Rust
 
-You've started learning Rust. You love it, and you want to be a part
-of it. If you're not sure how to get involved, then this page
-will help.
+Du hast angefangen Rust zu lernen.
+Du magst es und möchtest ein Teil davon sein.
+Wenn du dir nicht sicher bist wie du mitwirken kannst, dann wird dir diese Seite helfen.
 
-**Found a bug and need to report it?** [Follow the bug reporting
-guide][bugs]. Thanks in advance!
+**Du hast einen Bug gefunden und möchtest ihn melden?** [Folge dem Bug Report Guide][bugs].
+Vielen Dank dafür schon mal im Vorraus!
 
-Rust is an expansive system of projects, the most prominent of which
-are maintained by [The Rust Project Developers][devs] in [the
-rust-lang organization on GitHub][rust-lang]. Newcomers may be
-interested in the project's [CONTRIBUTING.md] file, which explains the
-mechanics of contributing to [rust-lang/rust].
+Rust ist eine kontinuierlich wachsende Menge von Unterprojekten
+die meisten davon werden auf von den [Rust Entwicklern][devs] in der [rust-lang Organisation auf GitHub][rust-lang] entwickelt.
+Einsteiger interessieren sich sicherlich für für die Datei [CONTRIBUTING.md],
+welche die Einzelheiten zum Mitwirken an [rust-lang/rust] erläutert.
 
 There are many ways to contribute to the success of Rust.
 This guide focuses on a few avenues for the new contributor:
