@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Contributing to Rust &middot; The Rust Programming Language
+title: An Rust Mitwirken &middot; Die Programmiersprache Rust
 ---
 
-# Contributing to Rust
+# An Rust Mitwirken
 
 Du hast angefangen Rust zu lernen.
 Du magst es und möchtest ein Teil davon sein.
@@ -17,31 +17,26 @@ die meisten davon werden auf von den [Rust Entwicklern][devs] in der [rust-lang 
 Einsteiger interessieren sich sicherlich für für die Datei [CONTRIBUTING.md],
 welche die Einzelheiten zum Mitwirken an [rust-lang/rust] erläutert.
 
-There are many ways to contribute to the success of Rust.
-This guide focuses on a few avenues for the new contributor:
+Es gibt viele Möglichkeiten zum Erfolg von Rust beizutragen.
+Dieser Leitfaden konzentriert sich auf davon, gerade auch für Einsteiger:
 
-* [Finding, triaging and fixing issues](contribute-bugs.html). The
-  basic work of maintaining a large and active project like Rust.
-* [Documentation](contribute-docs.html). Not just official
-  documentation, but also for crates, blog posts, and other unofficial
-  sources.
-* [Community building](contribute-community.html). Helping your fellow
-  Rustacean, and expanding the reach of Rust.
-* [Tooling, IDEs and infrastructure](contribute-tools.html). The
-  important pieces that make using a language practical and painless.
-* [Libraries](contribute-libs.html). Rust's suitability for any
-  particular task is mostly dependent on availability of quality
-  libraries.
-* [Language, compiler and the standard
-  library](contribute-compiler.html). Language design, feature
-  implementation, performance improvement.
+* [Probleme auffinden, untersuchen und fixen](contribute-bugs.html).
+  Die Hauptaufgabe beim Betreuen großer und aktiver Projekten wie Rust.
+* [Dokumentation](contribute-docs.html).
+  Nicht nur die offizielle Dokumentation, sondern auch die Dokumentation einzelner Crates, Blogposts und andere inoffizielle Quellen.
+* [Community Arbeit](contribute-community.html).
+  Hilf deinen Mit-Rustaceans und erweitere die Reichweite von Rust.
+* [Werkzeuge, IDEs und Infrastruktur](contribute-tools.html).
+  Die wichtigen Werkzeuge die die Sprache einfach zu benutzen machen.
+* [Bibliotheken](contribute-libs.html).
+  Rusts Nützlichkeit für bestimmte Aufgaben hängt stark von der Verfügbarkeit und Qualität von Bibliotheken ab.
+* [Sprache, Compiler und die Standardbibliothek](contribute-compiler.html).
+  Sprachdesign, Feature-Implementierung, Performanceverbesserungen.
 
-If you need additional guidance ask on [#rust-internals] or
-[internals.rust-lang.org].
+Wenn du zusätzlichen Rat benötigst, Frage einfach in [#rust-internals] oder [internals.rust-lang.org].
 
-We pride ourselves on maintaining civilized discourse, and to that end
-contributors are expected to follow our [Code of Conduct][coc]. If you
-have questions about this please inquire with the [community team].
+Wir sind besonders auf unseren freundlichen und höflichen Umgangston stolz, daher erwarten wir von allen mitwirkenden dass sie dem [Verhaltenskodex][coc] folgen.
+Wenn den fragen dazu hast, bitte wende dich an das [community team].
 
 <!--
 TODO: Write a guide to rust processes and governance to link from here
