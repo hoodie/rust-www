@@ -14,8 +14,12 @@ people:
     irc: acrichto
   aturon:
     name: Aaron Turon
+  badboy:
+    name: Jan-Erik Rediger
   bkoropoff:
     name: Brian Koropoff
+  booyaa:
+    name: Mark Sta Ana
   brson:
     name: Brian Anderson
   bstrie:
@@ -30,13 +34,33 @@ people:
     irc: doener
   eddyb:
     name: Eduard Burtescu
+  edunham:
+    name: Emily Dunham
   erickt:
     name: Erick Tryzelaar
   Gankro:
     name: Alexis Beingessner
+    ex-teams: ["libs"]
   huonw:
     name: Huon Wilson
     irc: huon
+    ex-teams: ["core", "lang", "libs"]
+  GuillaumeGomez:
+    name: Guillaume Gomez
+    irc: imperio
+  japaric:
+    name: Jorge Aparicio
+  johannhof:
+    name: Johann Hofmann
+  jonathandturner:
+    name: Jonathan Turner
+    irc: jntrnr
+  joshtriplett:
+    name: Josh Triplett
+    irc: JoshTriplett
+  jseyfried:
+    name: Jeffrey Seyfried
+    irc: jseyfried
   Kimundi:
     name: Marvin Löbel
     irc: kimundi
@@ -58,49 +82,70 @@ people:
     name: Nick Cameron
   pcwalton:
     name: Patrick Walton
+  peschkaj:
+    name: Jeremiah Peschka
+    irc: peschkaj
   pnkfelix:
     name: Felix Klock
   sfackler:
     name: Steven Fackler
   skade:
     name: Florian Gilcher
+  solson:
+    name: Scott Olson
+    irc: scott
   steveklabnik:
     name: Steve Klabnik
   vadimcn:
     name: Vadim Chugunov
+  ubsan:
+    name: Nicole Mazzuca
+  withoutboats:
+    name: Without Boats
   wycats:
     name: Yehuda Katz
 
 # Information about each team. Omit `lead` for teams without leaders.
 teams:
-  - name: Core
+  - name: Core Team
     responsibility: "overall direction of the project, subteam leadership, cross-cutting concerns"
-    members: [brson, alexcrichton, wycats, steveklabnik, nikomatsakis, aturon, pcwalton, huonw, erickt]
-  - name: Language design
+    members: [brson, alexcrichton, wycats, steveklabnik, nikomatsakis, aturon, pcwalton, erickt]
+  - name: Language design Team
     responsibility: "designing new language features"
-    members: [eddyb, nrc, pnkfelix, nikomatsakis, aturon, huonw]
+    members: [eddyb, nrc, pnkfelix, nikomatsakis, aturon, withoutboats]
     lead: nikomatsakis
-  - name: Library
+  - name: Library Team
     responsibility: "the Rust standard library, rust-lang crates, conventions"
-    members: [brson, Gankro, alexcrichton, sfackler, BurntSushi, Kimundi, aturon, huonw]
+    members: [brson, alexcrichton, sfackler, BurntSushi, Kimundi, aturon]
     lead: aturon
-  - name: Compiler
+  - name: Compiler Team
     responsibility: "compiler internals, optimizations"
-    members: [arielb1, eddyb, nrc, pnkfelix, bkoropoff, nikomatsakis, aatch, dotdash, michaelwoerister]
+    members: [arielb1, eddyb, nrc, pnkfelix, bkoropoff, nikomatsakis, aatch, dotdash, michaelwoerister, jseyfried]
     lead: nikomatsakis
   - name: Tooling and infrastructure
-    responsibility: "tool support (e.g. Cargo, multirust), CI infrastructure, etc."
+    responsibility: "tool support (e.g. Cargo, rustup), CI infrastructure, etc."
     members: [brson, nrc, alexcrichton, vadimcn, wycats, michaelwoerister]
     lead: alexcrichton
-  - name: Community
+  - name: Community Team
     responsibility: "coordinating events, outreach, commercial users, teaching materials, and exposure"
     lead: erickt
-    members: [brson, carols10cents, skade, manishearth, steveklabnik, bstrie, erickt]
-    email: community-team [at] rust-lang [dot] org
-  - name: Moderation
+    members: [brson, skade, manishearth, johannhof, steveklabnik, carols10cents, badboy, booyaa, bstrie, erickt, jonathandturner, edunham]
+    email: community-team@rust-lang.org
+  - name: Dokumentationsteam
+    responsibility: "ensuring Rust has fantastic documentation"
+    members: [steveklabnik, GuillaumeGomez, jonathandturner, peschkaj]
+  - name: Moderation Team
     responsibility: "helping uphold the <a href='https://www.rust-lang.org/conduct.html'>code of conduct</a>"
     members: [mbrubeck, BurntSushi, manishearth, pnkfelix, niconii]
-    email: rust-mods [at] rust-lang [dot] org
+    email: rust-mods@rust-lang.org
+  - name: Style Team
+    members: [brson, japaric, joshtriplett, nrc, solson, steveklabnik, ubsan]
+    lead: nrc
+    responsibility: "temporary 'strike team' charged with deciding on code style guidelines and configuring Rustfmt (process specified in <a href='https://github.com/rust-lang/rfcs/blob/master/text/1607-style-rfcs.md'>RFC 1607</a>)"
+    email: style-team@rust-lang.org
+  - name: Rust Team Alumni
+    responsibility: "enjoying a leisurely retirement"
+    members: [Gankro, huonw]
 
 # Information on sites to get profile information from
 sites:
@@ -125,7 +170,7 @@ sites:
 }
 .lead { font-weight: bold; }
 .lead .name::after { content: " (lead)"; }
-.irc {
+.details {
   display: none;
   position: absolute;
   bottom: 0;
@@ -135,7 +180,7 @@ sites:
   color: white;
   font-weight: normal;
 }
-.person:hover .irc {
+.person:hover .details {
    display: block;
 }
 
@@ -151,26 +196,25 @@ sites:
 
 # The Rust Team
 
-The Rust project is
-[governed](https://github.com/rust-lang/rfcs/blob/master/text/1068-rust-governance.md)
-by a number of teams, each focused on a specific area of concern. Below are
-the rosters, in alphabetical order.
+Das Rust Projekt wird über
+[RFcs](https://github.com/rust-lang/rfcs/blob/master/text/1068-rust-governance.md)
+von unterschiedlichen Teams organisiert,
+jedes davon konzentriert sich auf ein bestimmtes Gebiet.
+Hier folgt ein Mitgliederverzeichnis in alphabetischer Reihenfolge.
 
-To contact a team, post your question or comment to [the Internals
-forum](https://internals.rust-lang.org/) and tag your post with the category
-corresponding to the team name. Note that security disclosures should follow
-the [Rust security disclosure process](https://www.rust-lang.org/security.html). 
+Um ein bestimmtes Team zu kontaktieren schreibe deine Frage oder deinen Kommentar in das [interne Forum (eng)](https://internals.rust-lang.org/) und markiere deine Nachricht mit dem korrespondierenden Team Namen
+Bitte beachte unbedingt, dass sicherheitskritische Veröffentlichungen dem [Rust security disclosure process](security.html) folgen sollten.
 
 {% for team in page.teams %}
 <section id="{{ team.name | replace:' ','-' }}">
-<h2> {{ team.name }} team</h2>
+<h2> {{ team.name }} </h2>
 
-<strong>Responsibility</strong>: <em>{{ team.responsibility }}</em>
+<strong>Verantwortlich für</strong>: <em>{{ team.responsibility }}</em>
 
 <br />
 
 {% if team.email %}
-  <strong>Contact</strong>:
+  <strong>Kontakt</strong>:
   <a href="mailto:{{ team.email | uri_escape }}">{{ team.email }}</a>
 {% endif %}
 
@@ -186,7 +230,12 @@ the [Rust security disclosure process](https://www.rust-lang.org/security.html).
   <li class="person {% if team.lead and team.lead == nick %}lead{% endif %}">
   <a href="{{ site.url | replace:'%nick',nick }}">
     <div class="name">{{ person.name }}</div>
-    <div class="irc">irc: {% if person.irc %}{{ person.irc }}{% else %}{{ nick }}{% endif %}</div>
+    <div class="details">
+      <div>irc: {% if person.irc %}{{ person.irc }}{% else %}{{ nick }}{% endif %}</div>
+      {% if person.ex-teams %}
+      <div>teams: {{ person.ex-teams | join: ", " }}</div>
+      {% endif %}
+    </div>
     <img class="headshot" src="{{ site.avatar | replace:'%nick',nick }}" alt="{{ person.name }}">
   </a>
 </li>
