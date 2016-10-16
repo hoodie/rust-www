@@ -5,23 +5,20 @@ title: Contributing to Rust &mdash; finding, triaging and fixing issues &middot;
 
 # Contributing to Rust &mdash; finding, triaging and fixing issues
 
-The day-to-day maintenance of the project revolves around Rust's
-[issue tracker] and [pull requests][PR], and more help is always
-needed. The most basic way to get started contributing to Rust is to
-look for the [E-easy] or [E-mentor] labels. These are meant to be
-approachable for new Rust programmers.
+The day-to-day maintenance of the project revolves around Rust's [issue tracker] and [pull requests][PR],
+and more help is always needed.
+The most basic way to get started contributing to Rust is to look for the [E-easy] or [E-mentor] labels.
+These are meant to be approachable for new Rust programmers.
 
-On `E-mentor` issues an experienced Rust developer has volunteered in
-the comments to mentor you through solving the issue and [submitting
-the fix via GitHub pull request][pull]. Contact them about the issue,
-on the issue tracker by [@mentioning] their name in a comment, on IRC,
-or through email. Note that Rust developers get a lot of notifications
-and it is easy to miss some; don't hesitate to hunt them down by
-whatever means necessary!
-
-Other projects in Rust maintain similar entry-level tasks, including
-the web browser [Servo], the HTTP library [hyper], the
-source-formatter [rustfmt], the Unix library bindings [nix],
+On `E-mentor` issues an experienced Rust developer has volunteered in the comments to mentor you through solving the issue and [submitting the fix via GitHub pull request][pull].
+Contact them about the issue,
+on the issue tracker by [@mentioning] their name in a comment, on IRC, or through email.
+Note that Rust developers get a lot of notifications and it is easy to miss some; don't hesitate to hunt them down by whatever means necessary!
+Other projects in Rust maintain similar entry-level tasks,
+including the web browser [Servo],
+the HTTP library [hyper],
+the source-formatter [rustfmt],
+the Unix library bindings [nix],
 and the lint collection [clippy].
 
 While Rust has an [extensive test suite][test] there is always more to
