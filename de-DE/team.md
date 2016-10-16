@@ -108,43 +108,43 @@ people:
 # Information about each team. Omit `lead` for teams without leaders.
 teams:
   - name: Core Team
-    responsibility: "overall direction of the project, subteam leadership, cross-cutting concerns"
+    responsibility: "Allgemeine Richtung des Projekts, Subteam-Leitung, übergreifende Belange"
     members: [brson, alexcrichton, wycats, steveklabnik, nikomatsakis, aturon, pcwalton, erickt]
   - name: Language design Team
-    responsibility: "designing new language features"
+    responsibility: "Design neuer Sprachfeatures"
     members: [eddyb, nrc, pnkfelix, nikomatsakis, aturon, withoutboats]
     lead: nikomatsakis
   - name: Library Team
-    responsibility: "the Rust standard library, rust-lang crates, conventions"
+    responsibility: "die Rust Standardbibliothek, rust-lang Crates, konventionen"
     members: [brson, alexcrichton, sfackler, BurntSushi, Kimundi, aturon]
     lead: aturon
   - name: Compiler Team
-    responsibility: "compiler internals, optimizations"
+    responsibility: "Compiler-Interna, Optimierungen"
     members: [arielb1, eddyb, nrc, pnkfelix, bkoropoff, nikomatsakis, aatch, dotdash, michaelwoerister, jseyfried]
     lead: nikomatsakis
   - name: Tooling and infrastructure
-    responsibility: "tool support (e.g. Cargo, rustup), CI infrastructure, etc."
+    responsibility: "Werkzeuge (u.A. Cargo, rustup), CI Infrastruktur, etc."
     members: [brson, nrc, alexcrichton, vadimcn, wycats, michaelwoerister]
     lead: alexcrichton
   - name: Community Team
-    responsibility: "coordinating events, outreach, commercial users, teaching materials, and exposure"
+    responsibility: "Koordination von Events, Outreach, Kommerzielle Nutzer, Lernmaterialien and Publicity"
     lead: erickt
     members: [brson, skade, manishearth, johannhof, steveklabnik, carols10cents, badboy, booyaa, bstrie, erickt, jonathandturner, edunham]
     email: community-team@rust-lang.org
   - name: Dokumentationsteam
-    responsibility: "ensuring Rust has fantastic documentation"
+    responsibility: "sicherstellen dass Rust eine fantastische Dokumentation hat"
     members: [steveklabnik, GuillaumeGomez, jonathandturner, peschkaj]
   - name: Moderation Team
-    responsibility: "helping uphold the <a href='https://www.rust-lang.org/conduct.html'>code of conduct</a>"
+    responsibility: "helfen beim Einhalten des <a href='https://www.rust-lang.org/conduct.html'>Verhaltenskodexes</a>"
     members: [mbrubeck, BurntSushi, manishearth, pnkfelix, niconii]
     email: rust-mods@rust-lang.org
   - name: Style Team
     members: [brson, japaric, joshtriplett, nrc, solson, steveklabnik, ubsan]
     lead: nrc
-    responsibility: "temporary 'strike team' charged with deciding on code style guidelines and configuring Rustfmt (process specified in <a href='https://github.com/rust-lang/rfcs/blob/master/text/1607-style-rfcs.md'>RFC 1607</a>)"
+    responsibility: "temporäres 'strike team' beauftragt mit Entscheidungen bezüglich Code Style Richtlinen und Konfiguration von Rustfmt (Prozess ist in <a href='https://github.com/rust-lang/rfcs/blob/master/text/1607-style-rfcs.md'>RFC 1607</a> spezifiziert)"
     email: style-team@rust-lang.org
   - name: Rust Team Alumni
-    responsibility: "enjoying a leisurely retirement"
+    responsibility: "Genießen ihren wohlverdienten Ruhestand"
     members: [Gankro, huonw]
 
 # Information on sites to get profile information from
