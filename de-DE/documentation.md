@@ -22,7 +22,7 @@ ist die offizielle Dokumentation der Sprache
 und ist die momentan umfangreichste Quelle für alle Themen die mit Rust zu tun haben.
 [Die Programmiersprache Rust][book_de] ist die deutsche Übersetzung des offiziellen Buches.
 
-[Rust by Example][rbe] (en). Eine umfangreiche Sammlung kleiner, unabhängiger Rust Beispiele.
+[Rust by Example (en)][rbe]. Eine umfangreiche Sammlung kleiner, unabhängiger Rust Beispiele.
 All diese kannst du bereits im Browser ausprobieren, ohne Rust installieren zu müssen.
 
 [Frequently asked questions][faq].
@@ -42,7 +42,7 @@ programmers.
 
 ## Referenzen
 
-[Standard Library API Reference][api] (en). Dokumentation der 
+[Standard Library API Reference][api] (en). Dokumentation der
 Standard Bibliothek.
 
 [The Rust Reference][ref] (en). Rust besitzt zwar keine formale Spezifikation,
@@ -69,17 +69,15 @@ diversen Fehlermeldungen des Rust Compilers.
 
 ## Projekt Richtlinien
 
-[Rust security policy][security]. The project's policies for
-reporting, fixing and disclosing security-related bugs.
+[Rust Sicherheitsrichtlinien][security].
+Die Richtlinien des Projekts zum Melden, Beheben und offenlegen Sicherheitsrelevanter Bugs.
 
-[Rust copyright and trademark policies][legal]. The Rust
-copyrights are owned by The Rust Project Developers, and its
-trademarks are owned by Mozilla. Appropriate usage of Rust's
-trademarks are described here.
+[Rust Copyright- und Markenzeichen-Richtlinien ][legal].
+Das Rust Copyright liegt bei den Rust-Entwicklern, die Marke Rust gehört Mozilla.
+Die angemessene Verwendung von Rusts Marke ist hier beschrieben.
 
-[Code of Conduct][coc]. Applies to the rust-lang organization
-on GitHub, the official forums, IRC channels, and various
-other corners of the Rust world.
+[Verhaltenskodex][coc].
+Gilt für die *rust-lang* Organisation auf GitHub, die offiziellen Foren, IRC Channels und verschiedene andere Ecken der Rust Welt.
 
 [security]: security.html
 [legal]: legal.html
